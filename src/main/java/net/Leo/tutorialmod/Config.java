@@ -1,4 +1,4 @@
-package net.Leo.Tutorialmod;
+package net.Leo.tutorialmod;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
