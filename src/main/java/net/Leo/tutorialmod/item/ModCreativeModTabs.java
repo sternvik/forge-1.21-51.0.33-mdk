@@ -1,6 +1,7 @@
 package net.Leo.tutorialmod.item;
 
 import net.Leo.tutorialmod.TutorialMod;
+import net.Leo.tutorialmod.block.ModBLocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(Items.DIAMOND);
+                        pOutput.accept(ModBLocks.RAW_SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBLocks.SAPPHIRE_BLOCK.get());
                     } )
                     .build());
 

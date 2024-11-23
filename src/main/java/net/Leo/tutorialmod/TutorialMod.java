@@ -1,6 +1,7 @@
 package net.Leo.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.Leo.tutorialmod.block.ModBLocks;
 import net.Leo.tutorialmod.item.ModCreativeModTabs;
 import net.Leo.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,7 @@ public class TutorialMod
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBLocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
